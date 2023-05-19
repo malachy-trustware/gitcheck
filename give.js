@@ -9,5 +9,5 @@ var filter = function(array, callback) {
             }
         }
     }
-    return newArray;
+    return newArray[0];
 }
