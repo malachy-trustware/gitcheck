@@ -4,6 +4,9 @@ var filter = function(array, callback) {
     for (var i = 0; i < array.length; i++) {
         if (callback(array[i])) {
             newArray.push(array[i]);
+            for(let i = 0; i<newArray.length;i++){
+                return i;
+            }
         }
     }
     return newArray;
